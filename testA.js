@@ -1,4 +1,4 @@
-const alpha = "hello";
+const alpha = "hello!";
 
 function test(text) {
   console.log(text);
