@@ -4,12 +4,9 @@ function test(text) {
   console.log(text);
 }
 
-// test(alpha);
-// test("hi");
-
 // const -> let
 
-function num() {
+function getRandomString() {
   if (Math.random() < 0.5) {
     return "hello";
   } else {
