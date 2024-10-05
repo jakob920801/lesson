@@ -1,5 +1,10 @@
 const alpha = "hello";
 
-console.log(alpha);
+function test(text) {
+  console.log(text);
+}
+
+test(alpha);
+test("hi");
 
 // const -> let
