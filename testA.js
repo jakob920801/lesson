@@ -14,4 +14,10 @@ function getRandomString() {
   }
 }
 
-console.log(num());
+console.log(alpha);
+console.log(alpha);
+console.log(alpha);
+console.log(alpha);
+console.log(alpha);
+
+//add 주석
