@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="" utf-8 />
+    <title></title>
+    <style>
+      #grid {
+        border: 5px solid pink;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+
+      div {
+        border: 5px solid gray;
+      }
+    </style>
+  </head>
+  <body data-mode="day">
+    <h1>WEB</h1>
+    <!-- <input
+      type="button"
+      value="night"
+      onclick="document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';"
+    />
+    <input
+      type="button"
+      value="day"
+      onclick="document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';"
+    /> -->
+    <input
+      id="night_day"
+      type="button"
+      value="night"
+      onclick=" if (document.querySelector('#night_day').value === 'night'){
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    document.querySelector('#night_day').value ='day'
+     
+  }
+    else {
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black';
+      document.querySelector('#night_day').value='night'
+    }"
+    />
+  </body>
+</html>
