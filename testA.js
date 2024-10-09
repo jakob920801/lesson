@@ -13,6 +13,7 @@ function getRandomString() {
     return "hi";
   }
 }
+//aaaa
 
 console.log(alpha);
 console.log(alpha);
